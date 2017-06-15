@@ -65,7 +65,7 @@
     "no-empty": 2,                   // disallow empty statements (recommended)
     "no-ex-assign": 2,               // disallow assigning to the exception in a catch block (recommended)
     "no-extra-boolean-cast": 2,      // disallow double-negation boolean casts in a boolean context (recommended)
-    "no-extra-parens": 2,            // disallow unnecessary parentheses
+    "no-extra-parens": 0,            // disallow unnecessary parentheses
     "no-extra-semi": 2,              // disallow unnecessary semicolons (recommended) (fixable)
     "no-func-assign": 2,             // disallow overwriting functions written as function declarations (recommended)
     "no-inner-declarations": 2,      // disallow function or variable declarations in nested blocks (recommended)
@@ -85,7 +85,7 @@
     ////////// Best Practices //////////
 
     "accessor-pairs": 2,        // Enforces getter/setter pairs in objects
-    "block-scoped-var": 1,      // treat var statements as if they were block scoped
+    "block-scoped-var": 0,      // treat var statements as if they were block scoped
     "complexity": [1, 20],      // specify the maximum cyclomatic complexity allowed in a program
     "consistent-return": 2,     // require return statements to either always or never specify values
     "curly": [2, "all"],        // specify curly brace conventions for all control statements
@@ -128,7 +128,7 @@
     "no-param-reassign": 0,     // disallow reassignment of function parameters
     "no-process-env": 2,        // disallow use of process.env
     "no-proto": 2,              // disallow usage of __proto__ property
-    "no-redeclare": 2,          // disallow declaring the same variable more than once (recommended)
+    "no-redeclare": 0,          // disallow declaring the same variable more than once (recommended)
     "no-return-assign": 2,      // disallow use of assignment in return statement
     "no-script-url": 2,         // disallow use of javascript: urls.
     "no-self-compare": 2,       // disallow comparisons where both sides are exactly the same
