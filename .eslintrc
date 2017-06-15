@@ -111,7 +111,7 @@
     "no-floating-decimal": 2,   // disallow the use of leading or trailing decimal points in numeric literals
     "no-implicit-coercion": 2,  // disallow the type conversions with shorter notations
     "no-implied-eval": 2,       // disallow use of eval()-like methods
-    "no-invalid-this": 1,       // disallow this keywords outside of classes or class-like objects
+    "no-invalid-this": 0,       // disallow this keywords outside of classes or class-like objects
     "no-iterator": 1,           // disallow usage of __iterator__ property
     "no-labels": 1,             // disallow use of labeled statements
     "no-lone-blocks": 1,        // disallow unnecessary nested blocks
@@ -173,7 +173,7 @@
     "no-undef-init": 2,               // disallow use of undefined when initializing variables
     "no-undefined": 2,                // disallow use of undefined variable
     "no-unused-vars": 2,              // disallow declaration of variables that are not used in the code (recommended)
-    "no-use-before-define": 2,        // disallow use of variables before they are defined
+    "no-use-before-define": 0,        // disallow use of variables before they are defined
 
 
     ////////// Node.js //////////
